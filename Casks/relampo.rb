@@ -3,7 +3,7 @@ cask "relampo" do
   name "relampo"
   desc "Relampo CLI enables recording traffic, scripting load tests, and generating load"
   homepage "https://docs.relampo.dev"
-  version "0.0.3"
+  version "0.0.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,27 +13,27 @@ cask "relampo" do
 
   on_macos do
     on_intel do
-      url "https://github.com/relampo/relampo-backend/releases/download/v#{version}/relampo_#{version}_darwin_amd64.tar.gz",
-        verified: "github.com/relampo/relampo-backend/"
-      sha256 "46731a96d3994596f00d1a8f032df4527e49a1f15bec4c4bba15def4c4f47497"
+      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_darwin_amd64.tar.gz",
+        verified: "d1esekpdu3hjut.cloudfront.net/"
+      sha256 "0aa9d22b2dc019a8ec475a590eeb413ce6dc81c5304c0bd19ef63596fdb8d6d8"
     end
     on_arm do
-      url "https://github.com/relampo/relampo-backend/releases/download/v#{version}/relampo_#{version}_darwin_arm64.tar.gz",
-        verified: "github.com/relampo/relampo-backend/"
-      sha256 "c56544be68f65b243800f216ade0efcbf8ab2977129279343aa0a7486834f581"
+      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_darwin_arm64.tar.gz",
+        verified: "d1esekpdu3hjut.cloudfront.net/"
+      sha256 "2763aad805ce0a8101770f90c5ce103ba9cecebebae795f206a785b4ccdb508f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/relampo/relampo-backend/releases/download/v#{version}/relampo_#{version}_linux_amd64.tar.gz",
-        verified: "github.com/relampo/relampo-backend/"
-      sha256 "98bdd3f413821a757bc4001058db82aa6b6c4568f07695016c9306b9bf5a6134"
+      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_linux_amd64.tar.gz",
+        verified: "d1esekpdu3hjut.cloudfront.net/"
+      sha256 "6047dce4d16b6723ec56718799674a58627c4adb063dc4aaa72f03441a3b1dff"
     end
     on_arm do
-      url "https://github.com/relampo/relampo-backend/releases/download/v#{version}/relampo_#{version}_linux_arm64.tar.gz",
-        verified: "github.com/relampo/relampo-backend/"
-      sha256 "46581317a854272cad52b91793df0cb92aeb62655e653c6daefd8ac6cfd02a43"
+      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_linux_arm64.tar.gz",
+        verified: "d1esekpdu3hjut.cloudfront.net/"
+      sha256 "b44c7ca7a8ae6dc68227006b6f96b6ce772f8a1b6056989722b5348277c75f6a"
     end
   end
 
