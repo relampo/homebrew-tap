@@ -3,7 +3,7 @@ cask "relampo" do
   name "relampo"
   desc "Relampo CLI enables recording traffic, scripting load tests, and generating load"
   homepage "https://docs.relampo.dev"
-  version "0.0.7"
+  version "0.0.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,27 +13,27 @@ cask "relampo" do
 
   on_macos do
     on_intel do
-      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_darwin_amd64.tar.gz",
-        verified: "d1esekpdu3hjut.cloudfront.net/"
-      sha256 "3ad1e473d0a77b5f64db47ef2a32f253e60796ef39209bcc321f8f3a52a64599"
+      url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_darwin_amd64.tar.gz",
+        verified: "dl.relampo.com/"
+      sha256 "b04bbd3749e242a38e18ddeb39e51a087b62ee213ebe2fb9330ed14e108f1a43"
     end
     on_arm do
-      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_darwin_arm64.tar.gz",
-        verified: "d1esekpdu3hjut.cloudfront.net/"
-      sha256 "399ce1bdea340c2c56b8f31bd5d4dd256886578bcb2e39813c1677cc2c78280e"
+      url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_darwin_arm64.tar.gz",
+        verified: "dl.relampo.com/"
+      sha256 "7348dc537e31827b219b2294fb7dcfc25608d8da603bb0d78e2f7ed0f53e8278"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_linux_amd64.tar.gz",
-        verified: "d1esekpdu3hjut.cloudfront.net/"
-      sha256 "4e77e9af54810e4568d1e25bf4db56d94a7a3b0e0327fb3c1fef2ec253b9c513"
+      url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_linux_amd64.tar.gz",
+        verified: "dl.relampo.com/"
+      sha256 "8b2f0cee9939ddb2b9ce76ac2e1a9dfb243e210fd8269c5771963698d1704c85"
     end
     on_arm do
-      url "https://d1esekpdu3hjut.cloudfront.net/relampo/v#{version}/relampo_#{version}_linux_arm64.tar.gz",
-        verified: "d1esekpdu3hjut.cloudfront.net/"
-      sha256 "1a256e17254b93af1d96105af91f8a74c75650b2b699ad374c2291f3d525737e"
+      url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_linux_arm64.tar.gz",
+        verified: "dl.relampo.com/"
+      sha256 "fddaca663be612786f5a70d1b0b7b80085ca2834bed3eaf9a7452433ca70a984"
     end
   end
 
