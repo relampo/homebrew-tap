@@ -3,7 +3,7 @@ cask "relampo" do
   name "relampo"
   desc "Relampo CLI enables recording traffic, scripting load tests, and generating load"
   homepage "https://docs.relampo.dev"
-  version "0.0.11"
+  version "0.0.12"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "relampo" do
     on_intel do
       url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_darwin_amd64.tar.gz",
         verified: "dl.relampo.com/"
-      sha256 "214b6bde24ebfa7e4023190e2ace10b8410b40a5d539d39722702ae6a737e58c"
+      sha256 "6eba68b69abadfd8441f8036f95389e75e01cfd461c4522d84e8f383f66ae0ba"
     end
     on_arm do
       url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_darwin_arm64.tar.gz",
         verified: "dl.relampo.com/"
-      sha256 "696a39e197cffa9d09435ef5d0164cb5a5286dfe181f9b1affc9b7607d666207"
+      sha256 "14923260c4d6e7034f8ceed672dbe5f594e1cea35ab46ee159b1ef0c5dd41fa6"
     end
   end
 
@@ -28,12 +28,12 @@ cask "relampo" do
     on_intel do
       url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_linux_amd64.tar.gz",
         verified: "dl.relampo.com/"
-      sha256 "36e0347a58d6f003064b00cc8996005b5c83781327395fd24145ab469ba94a13"
+      sha256 "51d62cdac3138bc9b28aa03b108a3e45e268fee363e9d801d0bf863ad9574aad"
     end
     on_arm do
       url "https://dl.relampo.com/relampo/v#{version}/relampo_#{version}_linux_arm64.tar.gz",
         verified: "dl.relampo.com/"
-      sha256 "1f97be9d1b728da5044700581089ed90c2307df17afee74499d150dec0f3335c"
+      sha256 "da094785d0f1532994c78a61c22e36e65c7012d67e506379abc50f053a7b3cdd"
     end
   end
 
